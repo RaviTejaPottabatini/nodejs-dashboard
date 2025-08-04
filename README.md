@@ -13,30 +13,6 @@ A functional web application mimicking the **Command Center** interface to serve
 
 ---
 
-## 📂 Folder Structure
-
-dashboard/
-├── backend/ # Express + PostgreSQL
-│ ├── server.js # Main backend entry
-│ ├── db.js # PG connection
-│ ├── routes/ # API routes
-│ ├── init.sql # Table creation script
-│ ├── seed.sql # Demo seed data
-│ ├── package.json
-│ ├── .env
-│
-├── frontend/ # React (Vite) + Tailwind
-│ ├── src/
-│ │ ├── components.js
-│ │ ├── Dashboard.js
-│ │ ├── App.js
-│ │ ├── main.js
-│ │ ├── index.css
-│ ├── tailwind.config.js
-│ ├── package.json
-│
-├── README.md
-
 Backend Setup
 Install dependencies
 
